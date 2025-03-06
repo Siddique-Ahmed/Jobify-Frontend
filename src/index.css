@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import '@fontsource/roboto/300.css';
+@import '@fontsource/roboto/400.css';
+@import '@fontsource/roboto/500.css';
+@import '@fontsource/roboto/700.css';
+
+
+:root {
+  --light-bg: #D84040;
+  --dark-bg : #A31D1D;
+  --text-light: #ECDCBF;
+  --text-dark: #F8F2DE;
+  --text-white: #fff;
+  --text-black: #000; 
+}
