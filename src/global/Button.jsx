@@ -8,9 +8,10 @@ const Button = ({
   onClick,
   icon,
   iconPosition,
+  key
 }) => {
   return (
-    <button onClick={onClick} className={`${className} cursor-pointer`}>
+    <button key={key} onClick={onClick} className={`${className} cursor-pointer`}>
       <span className={`mr-1 ${isIcon ? "block" : "hidden"}`}>
         {icon && iconPosition == "left" ? icon : null}
       </span>

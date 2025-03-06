@@ -52,7 +52,7 @@ const YouKnowUs = () => {
         <div>
           <Accordion
             data={accordionData}
-            className={"w-full px-4 py-4 rounded-md"}
+            className={"w-full sm:px-4 py-4 rounded-md"}
           />
         </div>
       </div>
